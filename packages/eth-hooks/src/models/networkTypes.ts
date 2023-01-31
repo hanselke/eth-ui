@@ -8,6 +8,7 @@ export type TNetworkInfo = {
   name: string;
   chainId: number;
   rpcUrl: string;
+  color: string;
   faucet?: string;
   blockExplorer: string;
   price?: number;
